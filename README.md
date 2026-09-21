@@ -13,17 +13,12 @@ A simple Python project demonstrating a basic CI pipeline using GitHub Actions.
 
 ## Project Structure
 
-```text
-CICD/
-├── .github/
-│   └── workflows/
-│       └── ci.yaml
-├── .gitignore
-├── Dockerfile
-├── app.py
-├── requirements.txt
-└── test_app.py
-```
+- [CI Workflow](https://github.com/Haashim1/CI-Workflow) — GitHub Actions workflow for automated CI checks
+- [.gitignore](https://github.com/Haashim1/CI-Workflow/blob/main/.gitignore) — Specifies files and folders that Git should ignore
+- [Dockerfile](https://github.com/Haashim1/CI-Workflow/blob/main/Dockerfile) — Defines the Docker image build configuration
+- [app.py](https://github.com/Haashim1/CI-Workflow/blob/main/app.py) — Contains the Python application
+- [requirements.txt](https://github.com/Haashim1/CI-Workflow/blob/main/requirements.txt) — Lists the Python dependencies
+- [test_app.py](https://github.com/Haashim1/CI-Workflow/blob/main/test_app.py) — Contains the unit tests
 
 ## How the CI Pipeline Works
 
